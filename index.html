@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Home work 45</title>
+</head>
+<body class="bg-[#111318] text-white">
+    <header class="flex items-center bg-[#111318] justify-center gap-[30px] p-[20px] fixed w-[100%] z-50">
+        <img class="w-[200px]" src="https://lh3.googleusercontent.com/aida/AEtjO1Wd0G9u4o0AHmtaijSNFtsImXKdKfI4QNYs1ChIwQyyzHjV25JmlwOuyY7AIs-dOMzTzFZAdoJZiZbtUL-P6UYv5n7jQZ40zQcFzMpUrbYrstR_fe1iqg-DIfC0_DT7PAnq4lBmmrLLa2ckZtHaJQjyFzoormoEf9OeUyJoPD234PB4ifCdtvakxrcNIzNebBnHvFOzOVykzV7kSdbm0m9O36j4HndxT1Hj95K75XiBfl7qTJM4m47I9ic" alt="">
+        <nav class="lg:flex gap-[30px] hidden">
+            <p>GAMEZONE</p>
+            <p>Главная</p>
+            <p>Игры</p>
+            <p>Новости</p>
+            <p>Сообщество</p>
+            <p>==sinbyr</p>
+        </nav>
+        <div>
+            <div class="flex items-center gap-[15px]">
+
+                <form class="hidden lg:block">
+                    <input type="text" placeholder="Поиск игры" class="border-0 bg-[#1f2022] py-[10px] px-[20px] rounded-[15px]">
+                    <button class="text-[#00BCD5] border-[1px] py-[5px] px-[20px] rounded-[30px]">Войти</button>
+                </form>
+                <img class="w-[30px] lg:hidden" src="./img/bars.svg" alt="">
+                <img class="w-[50px]" src="./img/user-solid-full.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-[100px]">
+        <div class="lg:bg-[#1F1D2E] lg:border-[1px]   lg:flex justify-center m-[40px] p-[20px] items-center gap-[200px]">
+            <div>
+                <p class="bg-[#282A2F] text-[#5DE6FF] inline-block rounded-[10px] py-[5px] px-[10px] ml-[20px]">База знаний и релизов</p>
+                <h1 class="ml-[20px] text-[50px] lg:text-[70px]">Каталог игр</h1>
+                <p class="ml-[20px] text-[20px] lg:text-[20px]">Найди следующую игру для своего приключения</p>
+            </div>
+            <div class="lg:flex hidden items-center gap-[10px] mt-[130px]">
+                
+                <p class="flex gap-[10px] items-center"><img class="w-[40px]" src="./img/1.svg" alt="">142 проекта доступно для запуска</p>
+            </div>
+        </div>
+        <div class="lg:bg-[#1E1F25] m-[40px] p-[20px] rounded-[10px]">
+            <form class="lg:flex gap-[10px] justify-center">
+                <input type="text" placeholder="Поиск игр по названию, жанру, разработчику..." class="py-[10px] mr-[10px] lg:m-[0px] pr-[70px] lg:pr-[650px] pl-[30px] bg-[#1A1B21] rounded-[10px]">
+                <select name="" id="" class="bg-[#1A1B21] py-[10px] px-[20px] rounded-[10px]  mr-[10px] lg:m-[0px]">
+                    <option value="" class="bg-[#0C0E13] py-[10px] px-[20px] m-[10px] rounded-[10px]"><img src="./img/2.svg" alt="">По популярности</option>
+                    <option value="">По рейтингу</option>
+                    <option value="">Сначала новые</option>
+                    <option value="">По алфавиту</option>
+                </select>
+                <p class="bg-[#1A1B21] inline-block py-[10px] px-[20px] rounded-[10px]">Сброс</p>
+            </form>
+        </div>
+        <div>
+            <div class="flex items-center gap-[10px] ml-[40px] mb-[20px] lg:overflow-hidden overflow-scroll">
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#9B74F7] focus:text-[#34007F] rounded-[10px]">Всеигры</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#9B74F7] focus:text-[#34007F] rounded-[10px]">Экшен</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#9B74F7] focus:text-[#34007F] rounded-[10px]">Приключения</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#9B74F7] focus:text-[#34007F] rounded-[10px]">RPG</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#9B74F7] focus:text-[#34007F] rounded-[10px]">Шутеры</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#9B74F7] focus:text-[#34007F] rounded-[10px]">Песочницы</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#9B74F7] focus:text-[#34007F] rounded-[10px]">Гонки</button>
+            </div>
+            <div class="flex items-center gap-[10px] ml-[40px] mb-[20px] lg:overflow-hidden overflow-scroll">
+            <p>Фильтры:</p>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#213D46] focus:text-[#5DE5FF] hover:text-[#5DE5FF] rounded-[10px]">Гонки</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#213D46] focus:text-[#5DE5FF] hover:text-[#5DE5FF] rounded-[10px]">PlayStation5</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#213D46] focus:text-[#5DE5FF] hover:text-[#5DE5FF] rounded-[10px]">XboxSeries</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#213D46] focus:text-[#5DE5FF] hover:text-[#5DE5FF] rounded-[10px]">Кооператив</button>
+            <button class="text-white py-[5px] px-[20px] bg-[#1E1E26] focus:bg-[#213D46] focus:text-[#5DE5FF] hover:text-[#5DE5FF] rounded-[10px]">Бесплатные</button>
+            </div>
+        </div>
+        <div>
+            <div class="lg:flex justify-center">
+                <div class="mt-[50px] relative inline-block">
+                    <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                        <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                        <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.9</p>
+                    </div>
+                    <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlQ2VASdK9TrKp33onWPDb9OqMGpkitHY8whQsll0KPedIuJBctPgUExNdsI8MVveLJbVHPcH5_31rvBQ9iyWNIMqM-rT-syM1hiky9gqaf1DAUeq1cl5NvpZI2UVpIfHfDtUgFXtjC_QYvegX1WUrGmYmqBslYTnuGkDoxbTQQHIZ4O6Zi_xaVb3nNbkNMMi6N4wADvlLmV-wWBPrmW58T7sVqQLI-MkIe-YYxPZ9N6ZMvaAqRB0Z" alt="">
+                <div class="bg-[#1E1F25] rounded-b-[10px] p-[10px]">
+                    <p class="text-[#C5BCFF] pt-[10px]">RPG / Киберпанк</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#C5BCFF] inline-block">Cyberpunk 2077</p>
+                    <p class="w-[400px] mt-[10px]">Погрузись в опасный мегаполис Найт-Сити в роли наемника V в  поисках уникального импланта бессмертия.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            <div class="mt-[50px] relative inline-block ">
+                <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                    <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                    <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.95</p>
+                </div>
+                <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjPLGnZ0qm36_WtPIKVQmW7iJlxrJSWpKmb_FQu3hlSc5OkVV4td1MjvmIZv-8DOrsM3JbA3R8m9tjL7u9y0u-CaOGfqU3YCqF6ud45v2YmFx6XRTVM-RTu9J_N9WtCTH7N4-3kWy5jXCQ902zlqsR9uDI-RArTjc-yEiE5AynxranlVOvnmGGU62c0NQuCNe8RF-h3DMOPqk6M8odmble-Ezfs6s0VHUyn7adRnFVXbPbSWaKjxi_" alt="">
+                <div class="bg-[#1E1F25] rounded-b-[10px] p-[10px]">
+                    <p class="text-[#C5BCFF] pt-[10px]">Action RPG</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#C5BCFF] inline-block">Elden Ring</p>
+                    <p class="w-[400px] mt-[10px]">Грандиозное приключение в Междуземье от FromSoftware и Джорджа Р. Р. Мартина с непревзойденной свободой.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            <div class="mt-[50px] relative inline-block">
+                <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                    <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                    <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.7</p>
+                </div>
+                <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjBDCZf_3mB-RIOtOPK9qduq7C_f4AUcvMPyAUyY204kfGJBjLqo8O87RhViqauINpa0ZLF_o-iUvncS4Xr4HSBRD8dtCXHk7r18dL3MrCtU3yHHJLnOwUuyZ_LEiSBshvKudgy_mQvZrN9t7i655w1QTOTmA1Gmuhy2KrWZcJHfSfNgzVcjBpFQrHI2pVGcQX8kjZAjXWZxgYMleRTB-gtVaoA577UUVzMtBkAaztCbywh5iA_14l" alt="">
+                <div class="bg-[#1E1F25] rounded-b-[10px] p-[10px]">
+                    <p class="text-[#5DE6F1] pt-[10px]">Тактический шутер</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#5DE6F1] inline-block">Counter-Strike 2</p>
+                    <p class="w-[400px] mt-[10px]">Крупнейший технологический скачок в истории легендарного командного шутера на движке Source 2.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            </div>
+            <div class="lg:flex justify-center">
+                <div class="mt-[50px] relative inline-block">
+                    <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                        <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                        <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.98</p>
+                    </div>
+                    <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnxDMNQ5R0ogtoco5yD9HPVGSGGmZwIIwd5WcMy5dqwXx2uxHokXC_VVEaldAHuMK3V_F_EAK1I20H4yGkFYo4jg-gwmXcjFLE-Inyk98_TBfS-7WHxhmR4AytzefdKvEA6_ST9S_3rOz8RQNgfzMS4-_zyvS6UvpUEyBwcxGRRZnb-P48cmAD9Zeve643JTLFGinc-CD0RrIEpCwi9m6RIjHj-eK87GgypE5WbbhaqKbyoX5PAbdC" alt="">
+                <div class="bg-[#1E1F25] rounded-b-[10px] p-[10px]">
+                    <p class="text-[#C5BCFF] pt-[10px]">RPG / Фэнтези</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#C5BCFF] inline-block">The Witcher 3: Wild Hunt</p>
+                    <p class="w-[400px] mt-[10px]">Станьте ведьмаком Геральтом из Ривии и найдите дитя Предназначения в растерзанном войной мире.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            <div class="mt-[50px] relative inline-block ">
+                <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                    <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                    <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.97</p>
+                </div>
+                <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA21a6cUI2es5KBD9aWZbF5vBiyPzdAVTRq2-J2XZQPlPmsB2jlNlRnLYIHbMKioYLDYej1asGWY0EKiANoECINVyLeEoySVMjTkQRgq6GgpRQxmKy6DdqBM-ZiHhIro5D6EBgd-yW4npQc76mdQTyT520vbk6M1wT4zLKHZ6MjxnZ54UpfsmmqBriFpsNXRvmSQk1FDru1J2qzySIMXAj90Gw4wVhXi8pqwvnskgKEhYq5jmm00OpX" alt="">
+                <div class="bg-[#1E1F25] rounded-b-[10px] p-[10px]">
+                    <p class="text-[#C5BCFF] pt-[10px]">Открытый мир / Экшен</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#C5BCFF] inline-block">Red Dead Redemption 2</p>
+                    <p class="w-[400px] mt-[10px]">Эпическая сага о жизни банды Ван дер Линде на закате эры Дикого Запада в Америке 1899 года.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            <div class="mt-[50px] relative inline-block">
+                <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                    <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                    <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.96</p>
+                </div>
+                <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_ELgk1DAMyaBY5LhAl_nLBjEToQcCIIQDaMqJvts3sJenbmyaTyLc7Mc8w5pK9XJioi6KEVGHOnzzEQow8WezWjVHRcfMUR3kNhDYmlWYqYslW6BNKk4hBU454L5Y2ELFc__821AxtqgQ4XOGvB0fH_6oi4GWQRm67-uIZjMplY0tstUiS1_TxDeJBtbHcHbHxUJukR1oJ-UAtFjreR5OhhlcrULtueddkAoYq_apMoh-YIe6k34w" alt="">
+                <div class="bg-[#1E1F25] rounded-b-[10px] p-[10px]">
+                    <p class="text-[#C5BCFF] pt-[10px]">Пошаговая RPG</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#C5BCFF] inline-block">Baldur's Gate 3</p>
+                    <p class="w-[400px] mt-[10px]">Соберите отряд и вернитесь в Забытые Королевства в истории о дружбе, предательстве и абсолютной власти.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            </div>
+            <div class="lg:flex justify-center">
+                <div class="mt-[50px] relative inline-block">
+                    <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                        <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                        <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.85</p>
+                    </div>
+                    <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDb8aybmwmbrmt0llv7o1JszfXxgpovN94Ee8Q-mYWMuFSIKTCJ79hErI3m8QfAALdfxwRIjcO0vfbOT_Wnv5obc6kQOSz8u8emDwsbL8yA-_Sqs1HscfMolVC9vAnYlZ1PRSzA3qaBQfnWRJr1x6mbjmsBMJ8n3naeWzeFccY3IUHKN-3lXkgiU6gWgS7yKCu0lrQhWyvqvXDZSUBdbGVEpQPjOuaTDpSvOmHM3MtisQeTYZzpl23J" alt="">
+                <div class="bg-[#1E1F25] rounded-b-[10px] p-[10px]">
+                    <p class="text-[#C5BCFF] pt-[10px]">RPG / Фэнтези</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#C5BCFF] inline-block">Grand Theft Auto V</p>
+                    <p class="w-[400px] mt-[10px]">Переживите сплетенные истории трех колоритных преступников в солнечном и опасном штате Сан-Андреас.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            <div class="mt-[50px] relative inline-block ">
+                <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                    <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                    <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.78</p>
+                </div>
+                <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjtyapGYwS92tjYD_JmP0NDtd3DeIScl5MK2xoR1gT-May7l89zuXSZ-QnC-M4Pn7m4EyWykAKqQBhs89u0t1JBnKi2eFwDwusAgfR6AVce0FSlqpd_U9LfdF-rx3S1derEE_1xvGLU1KNnd31SH_qQhDN11Yn5OiQqz1d69Zbl4xEFh1yo-RR3zsjq0_Rat4KxenYya5BSmEZT4iRYvYSrBB07BSk8VANY9ap_R3jnx_GzgLy-b4L" alt="">
+                <div class="bg-[#1E1F25] rounded-[b-[10px]] p-[10px]">
+                    <p class="text-[#5BE0F9] pt-[10px]">Автосимулятор / Гонки</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#5BE0F9] inline-block">Forza Horizon 5</p>
+                    <p class="w-[400px] mt-[10px]">Бесконечный праздник скорости в великолепном и постоянно меняющемся открытом мире Мексики.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            <div class="mt-[50px] relative inline-block">
+                <div class="flex gap-[100px] left-[50px] absolute top-[20px]">
+                    <p class="bg-[#0E0F14] text-[#5BE0F9] inline-block py-[5px] px-[20px] rounded-[10px]">В каталоге</p>
+                    <p class="bg-[#0E0F14] flex gap-[20px] text-[#EFC84A]  py-[5px] px-[20px] rounded-[30px] w-[115px]"><img class="w-[20px]" src="./img/star.svg" alt="">4.85</p>
+                </div>
+                <img class="w-[420px] rounded-t-[10px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDedklDO4noIfrx9_gTfA26uSyIob26aK-Fr78a3NQ7V6G7QMFdH2cNzmNWt_2L2vym8d2P9nf8Iq6qIECCT7yT-RjlxibTP-s1KnDqq-I3zpIfAn8GwR4ECci_ilDhpkzroWDL5CHMzXN2AUKK-0EITtVaVrpdt0SKXGNZPR2F2-2FtHorypm4A6HNcQBsOrQG4KapBFTrNiEzKAH_bHcdb7ovpVvC8cGnwXjctK2BBhAOjKrSWia0" alt="">
+                <div class="bg-[#1E1F25] rounded-b-[10px] p-[10px]">
+                    <p class="text-[#5BE0F9] pt-[10px]">Королевская битва</p>
+                    <p class="text-white text-[30px] mt-[10px] hover:text-[#5BE0F9] inline-block">Apex Legends</p>
+                    <p class="w-[400px] mt-[10px]">Освойте растущий список легендарных персонажей с уникальными способностями в динамичном командном шутере.</p>
+                    <button class="text-[#3C12B8] mt-[10px] bg-[#D0BCFF] py-[5px] px-[20px] rounded-[10px]">Подробнее</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="lg:flex justify-center items-center gap-[500px] mt-[100px]">
+            <p class="text-center mb-[20px]">Показано 9 из 142 игр</p>
+            <div class="bg-[#1E1F25] py-[20px] px-[10px] rounded-[15px] flex justify-center gap-[20px] items-center">
+                <a href="./index.html" class="bg-[#A078FF] text-[#5A0080] py-[10px] px-[20px] rounded-[10px]">1</a>
+                <a href="./index2.html" class="bg-[#1A1B21] py-[10px] px-[20px] rounded-[10px]">2</a>
+                <a href="./index.html" class="bg-[#1A1B21] py-[10px] px-[20px] rounded-[10px]">3</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#0C0E13] mt-[50px] p-[30px] ">
+        <div class="lg:flex items-center justify-center mt-[50px] gap-[400px]">
+            <div class="flex items-center gap-[40px]">
+                <img class="w-[150px]" src="https://lh3.googleusercontent.com/aida/AEtjO1Wd0G9u4o0AHmtaijSNFtsImXKdKfI4QNYs1ChIwQyyzHjV25JmlwOuyY7AIs-dOMzTzFZAdoJZiZbtUL-P6UYv5n7jQZ40zQcFzMpUrbYrstR_fe1iqg-DIfC0_DT7PAnq4lBmmrLLa2ckZtHaJQjyFzoormoEf9OeUyJoPD234PB4ifCdtvakxrcNIzNebBnHvFOzOVykzV7kSdbm0m9O36j4HndxT1Hj95K75XiBfl7qTJM4m47I9ic" alt="">
+                <p>GAMEZONE</p>
+            </div>
+            <div class="flex gap-[20px] overflow-scroll lg:overflow-hidden items-center">
+                <p>Главная</p>
+                <p>Игры</p>
+                <p>Новости</p>
+                <p>Сообщество</p>
+                <p>Поддержка</p>
+            </div>
+        </div>
+        <div class="lgflex justify-center items-center mt-[50px] gap-[630px]">
+            <p class="text-center lg:text-start">© 2026 GAMEZONE. Все права защищены.</p>
+            <p class="hidden lg:block">Dark Minimal Portal</p>
+        </div>
+    </footer>
+</body>
+</html>
